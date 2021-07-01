@@ -37,3 +37,7 @@ let circum = (diamater: number) => {
 }
 
 console.log(circum(age))
+
+let a = names.push('Meowsucles')
+
+console.log(a)

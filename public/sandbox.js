@@ -1,3 +1,4 @@
+"use strict";
 var char = "Peeley";
 var other = "Jonsey";
 var names = [char, other, "Midas", "Sloan", "Brutus"];
@@ -21,3 +22,5 @@ var circum = function (diamater) {
     return diamater * Math.PI;
 };
 console.log(circum(age));
+var a = names.push('Meowsucles');
+console.log(a);
