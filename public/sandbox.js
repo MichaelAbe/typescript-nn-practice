@@ -1,7 +1,14 @@
 var char = "Peeley";
+var other = "Jonsey";
+var names = [char, other, "Midas", "Sloan", "Brutus"];
+var mixedArray = [];
+var best = {
+    name: 'Sky',
+    mythic: 'AR',
+    glider: 'Ollie'
+};
 var age = 5;
 var killer = false;
-var other = "Jonsey";
 console.log(char, other);
 var inputs = document.querySelectorAll('input');
 console.log(inputs);

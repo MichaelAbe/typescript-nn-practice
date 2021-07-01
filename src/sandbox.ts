@@ -1,10 +1,21 @@
 let char = "Peeley"
 
+const other = "Jonsey"
+
+let names = [char, other, "Midas", "Sloan", "Brutus"]
+
+let mixedArray = []
+
+let best = {
+    name: 'Sky', 
+    mythic: 'AR', 
+    glider: 'Ollie'
+}
+
 let age = 5
 
 let killer = false
 
-const other = "Jonsey"
 
 console.log(char, other)
 
