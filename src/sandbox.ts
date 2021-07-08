@@ -48,8 +48,14 @@ greet = () => {
     console.log('Yo, What is good?')
 } 
 
-const add = (a: number, b: number) => {
+const add = (a: number, b: number, c: number | string = 10) => {
     console.log(a + b)
+    console.log(c)
 }  
 
-add(5)
+add(5,10, '3192')
+
+
+let yeet = (a: strng ) => {
+    console.log(a)
+}
