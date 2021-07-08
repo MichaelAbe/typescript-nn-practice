@@ -41,3 +41,7 @@ console.log(circum(age))
 let a = names.push('Meowsucles')
 
 console.log(a)
+
+let greet = () => {
+    console.log('Yo, What is good?')
+} 
