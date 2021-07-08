@@ -42,6 +42,14 @@ let a = names.push('Meowsucles')
 
 console.log(a)
 
-let greet = () => {
+let greet: Function;
+
+greet = () => {
     console.log('Yo, What is good?')
 } 
+
+const add = (a: number, b: number) => {
+    console.log(a + b)
+}  
+
+add(5)
