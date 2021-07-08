@@ -61,3 +61,22 @@ const add = (a: number, b: number, c/*?*/: number | string = 23): void => {
   
   let result = minus(10,7)
   console.log(result)
+
+  //explicit types 
+  let cha: string
+  let time: number
+  let isLoggedIn: boolean
+
+  age = 34
+  isLoggedIn = false 
+
+  //arrays
+
+  let peeps: string[] = []
+
+  //union types
+
+  let mixed: (string|number)[] = []
+
+
+  //objects
