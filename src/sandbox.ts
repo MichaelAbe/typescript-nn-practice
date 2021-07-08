@@ -42,20 +42,22 @@ let a = names.push('Meowsucles')
 
 console.log(a)
 
-let greet: Function;
+let greet: Function
 
 greet = () => {
     console.log('Yo, What is good?')
 } 
 
-const add = (a: number, b: number, c: number | string = 10) => {
+const add = (a: number, b: number, c/*?*/: number | string = 23): void => {
     console.log(a + b)
     console.log(c)
-}  
-
-add(5,10, '3192')
-
-
-let yeet = (a: strng ) => {
-    console.log(a)
-}
+  }
+  
+  add(5, 10, 'homie')
+  
+  const minus = (a: number, b: number): number => {
+    return a + b
+  }
+  
+  let result = minus(10,7)
+  console.log(result)
