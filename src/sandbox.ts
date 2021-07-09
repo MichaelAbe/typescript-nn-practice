@@ -2,6 +2,15 @@ let char = "Peeley"
 
 const other = "Jonsey"
 
+let kobe = "Kobe"
+let breezy = "Leboron James"
+let timmy = "Tim Duncan"
+let mj = "Michael Jordan"
+let kd = "Kevin Durant"
+let steph = "Steph Curry"
+
+let ballers: string[] = []
+
 let names = [char, other, "Midas", "Sloan", "Brutus"]
 
 let mixedArray = []
@@ -76,7 +85,16 @@ const add = (a: number, b: number, c/*?*/: number | string = 23): void => {
 
   //union types
 
-  let mixed: (string|number)[] = []
+  let mixed: (string|number|boolean)[] = []
 
 
   //objects
+
+  ballers.push(kd)
+  ballers.push(mj)
+  ballers.push(kobe)
+  ballers.push(timmy)
+  ballers.push(steph)
+  ballers.push(breezy)
+
+  console.log(ballers)
